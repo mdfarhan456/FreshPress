@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;     
   text-align: center;
-  margin-top: 8.5%;
+  margin-top: 5.5%;
   background: linear-gradient(135deg, skyblue, mediumslateblue);
   color: white;
   padding: 80px 20px;
@@ -12,17 +12,21 @@
   box-shadow: 0 8px 20px gray; 
 }
 
+/* Heading */
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 15px;
   text-shadow: 1px 1px 4px darkblue;
 }
 
+/* Paragraph */
 .hero p {
   font-size: 1.3rem;
   opacity: 0.95;
+  max-width: 700px;
 }
 
+/* Button */
 .hero button {
   margin-top: 25px;
   padding: 12px 30px;
@@ -41,4 +45,41 @@
   background: lightyellow;
   color: mediumslateblue;
   transform: translateY(-3px);
+}
+
+
+@media (max-width: 576px) {
+  .hero {
+    margin-top: 20%;
+    padding: 50px 15px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero button {
+    padding: 10px 22px;
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .hero {
+    margin-top: 12%;
+    padding: 65px 20px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.15rem;
+  }
 }

@@ -1,0 +1,23 @@
+
+.custom-navbar {
+  background-color: steelblue; /* Trust & stability */
+  padding: 12px 0;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+  margin-left: 18px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: orange !important; /* Accent color for CTA feel */
+}

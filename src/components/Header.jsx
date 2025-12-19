@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import "../css/header.css";
 
-const Header=()=> {
+const Header = () => {
   return (
     <>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark custom-navbar">
       <div className="container">
         <Link className="navbar-brand" to="/">FreshPress</Link>
 
@@ -27,6 +28,6 @@ const Header=()=> {
     </nav>
     </>
   );
-}
+};
 
 export default Header;
